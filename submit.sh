@@ -4,7 +4,7 @@
 #SBATCH -N 1         #number-of-node
 #SBATCH -t 00:10:00  #time-to-use
 #SBATCH -J keras-singularity-test   #job-name
-#SBATCH -A supai-y22-train  #project-account
+#SBATCH -A INSERT_PROJECTNAME  #project-account
 
 CUDAxxxx=11
 
